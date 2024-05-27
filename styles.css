@@ -1,0 +1,143 @@
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #3d7558;
+  color: white;
+  padding: 1rem 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0.6 auto;
+  padding: 0 20px;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-image: url('https://lh3.googleusercontent.com/drive-storage/AJQWtBMayILtkmkaKsp5nBHtMUMvXOahjQm01gdLDMaoPufRy920LHPWsNrmjHlhMz1tF-nd1nB7ntBmmEZASB2Kl868cFx3dOD-GWvdXR5Ws1oiAMY=w1420-h838');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 2rem;
+  margin: 1rem 0 0;
+  color: #1fa15e;
+}
+
+
+.contact-section {
+  background-color: #363f41;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.contact-section h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #f8f2f2;
+}
+
+.contact-section p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: #fffefe;
+  font-style: italic;
+}
+
+.contact-platforms {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.platform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.platform img {
+  width: 30px;
+  height: 30px;
+}
+
+.platform span {
+  font-size: 0.875rem;
+  color: #fffefe;
+}
+
+footer {
+  background-color: #4d595c;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin: 10%, color #363f41;
+}
+
+.footer-left {
+  text-align: left;
+  flex: 1;
+}
+
+.footer-right {
+  text-align: right;
+  flex: 1;
+}
